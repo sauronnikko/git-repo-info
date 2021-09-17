@@ -246,6 +246,12 @@ module.exports = function(gitPath) {
       }
       var refPath = headFile.split(' ')[1];
 
+      console.log('headfile');
+      console.log(headFile);
+
+      console.log('refPath');
+      console.log(refPath);
+
       // Find branch and SHA
       if (refPath) {
         refPath = refPath.trim();
